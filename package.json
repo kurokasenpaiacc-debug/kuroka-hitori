@@ -19,7 +19,7 @@
     "url": "git+https://github.com/nazedev/hitori.git"
   },
   "type": "module",
-  "main": "start.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
     "src": "src"
@@ -28,7 +28,7 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "node start.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "debug": "DEBUG=* node start.js"
   },
